@@ -1,0 +1,5 @@
+step,rows_remaining,removed
+raw download,6847,0
+drop rows missing a key field,6847,0
+drop duplicate battery_id,6847,0
+keep 0 V < voltage <= 7 V and capacity > 0,6187,660

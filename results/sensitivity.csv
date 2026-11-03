@@ -1,0 +1,7 @@
+ion,supply filter,0.025,0.05,0.1
+Li,none,28.0,83.0,186.0
+Li,tierAB_free,16.0,29.0,70.0
+Li,tierA_free,19.0,45.0,110.0
+Na,none,10.0,17.0,19.0
+Na,tierAB_free,5.0,7.0,7.0
+Na,tierA_free,8.0,13.0,15.0

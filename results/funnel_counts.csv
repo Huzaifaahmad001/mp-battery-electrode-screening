@@ -1,0 +1,10 @@
+step,Li,Na
+all entries,2688,402
+voltage window,1421,213
+capacity floor,584,105
+stability (E_hull),161,50
+volume change,121,30
+no radioactive/toxic element,121,26
+contains oxygen (oxide / polyanion),109,26
+no Materials Project warning,83,17
+Co/Ni-free,45,13

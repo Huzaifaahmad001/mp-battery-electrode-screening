@@ -1,0 +1,61 @@
+{
+  "n_records_downloaded": 6847,
+  "n_records_after_cleaning": 6187,
+  "criteria": {
+    "Li": {
+      "v_min": 3.0,
+      "v_max": 4.5,
+      "cap_min": 150
+    },
+    "Na": {
+      "v_min": 2.5,
+      "v_max": 4.2,
+      "cap_min": 100
+    }
+  },
+  "e_hull_max_eV_per_atom": 0.05,
+  "volume_change_max_pct": 10.0,
+  "funnel": {
+    "Li": {
+      "all entries": 2688,
+      "voltage window": 1421,
+      "capacity floor": 584,
+      "stability (E_hull)": 161,
+      "volume change": 121,
+      "no radioactive/toxic element": 121,
+      "contains oxygen (oxide / polyanion)": 109,
+      "no Materials Project warning": 83,
+      "Co/Ni-free": 45
+    },
+    "Na": {
+      "all entries": 402,
+      "voltage window": 213,
+      "capacity floor": 105,
+      "stability (E_hull)": 50,
+      "volume change": 30,
+      "no radioactive/toxic element": 26,
+      "contains oxygen (oxide / polyanion)": 26,
+      "no Materials Project warning": 17,
+      "Co/Ni-free": 13
+    }
+  },
+  "pass_all_technical_filters": {
+    "Li": 83,
+    "Na": 17
+  },
+  "pass_and_Co_Ni_free": {
+    "Li": 45,
+    "Na": 13
+  },
+  "pareto_optimal": {
+    "Li": 11,
+    "Na": 5
+  },
+  "ml": {
+    "thermo_type_used": "not recorded",
+    "MAE_baseline_strict_V": 1.155,
+    "MAE_per_ion_baseline_strict_V": 0.933,
+    "MAE_random_forest_strict_V": 0.595,
+    "MAE_random_forest_random_split_V": 0.492
+  }
+}

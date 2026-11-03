@@ -1,0 +1,13 @@
+split,model,MAE (V),R2
+"random 5-fold (leaky, optimistic)",Baseline (always predict the mean),1.155198036672886,-0.0003480424631645551
+"random 5-fold (leaky, optimistic)",Per-ion baseline (mean of the same ion),0.9327943229167581,0.3027449617026643
+"random 5-fold (leaky, optimistic)",Ridge regression,0.7170399546452326,0.5666894294797117
+"random 5-fold (leaky, optimistic)",Random forest,0.4919877209026858,0.7532064469258383
+grouped by host framework,Baseline (always predict the mean),1.1567765107371961,-0.002392399749722829
+grouped by host framework,Per-ion baseline (mean of the same ion),0.9349157203509028,0.2991206601422397
+grouped by host framework,Ridge regression,0.7225034737292267,0.5588577171309865
+grouped by host framework,Random forest,0.5614890374178054,0.698594598712582
+grouped by chemical system (strict),Baseline (always predict the mean),1.1550941413202755,-0.0003273389476865507
+grouped by chemical system (strict),Per-ion baseline (mean of the same ion),0.9334845163983486,0.301985074389737
+grouped by chemical system (strict),Ridge regression,0.7253500705803291,0.5574977519597638
+grouped by chemical system (strict),Random forest,0.5948101080234557,0.6707487922278327
