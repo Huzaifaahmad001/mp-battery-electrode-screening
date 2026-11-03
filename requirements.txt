@@ -1,0 +1,6 @@
+mp-api==0.47.0
+pymatgen==2026.10.24
+pandas==2.2.3
+numpy==2.4.6
+scikit-learn==1.6.1
+matplotlib==3.10.0
