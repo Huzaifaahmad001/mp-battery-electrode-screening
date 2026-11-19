@@ -1,7 +1,7 @@
 # Sustainability-aware screening of battery insertion electrodes
- 
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Huzaifaahmad001/mp-battery-electrode-screening/blob/main/notebooks/MP_Battery_Explorer.ipynb)
- 
+
 Screens all insertion-electrode records of the Materials Project (database version
 2026.04.13, retrieved 8 October 2026; 6,847 records, 10 working ions) for practical
 cathode targets. It asks how many good candidates remain without cobalt and nickel,
